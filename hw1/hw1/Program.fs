@@ -9,6 +9,13 @@
     _find list number 0
 
 let powersOfTwo n m = 
+    let rec fastPowerOfTwo n = 
+        match n with 
+            | 0 -> 1
+            | n when n % 2 = 0 ->
+                let res = fastPowerOfTwo (n / 2)
+                res * res
+            | _ -> fastPowerOfTwo (n - 1)
     let compoundFold state _ = state, state * 2
     let list, _ = List.mapFold compoundFold (pown 2 n) [n..n + m]
     list
@@ -29,7 +36,7 @@ let fibonacci n =
 
 let factorial n =
     let rec _factorial acc n =
-        if n = 1 then
+        if n = 0 then
             acc
         else
             _factorial (acc * n) (n - 1)
