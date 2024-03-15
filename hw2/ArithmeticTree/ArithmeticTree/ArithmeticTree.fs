@@ -21,7 +21,7 @@ module ArithmeticTree =
                     | Subtraction -> leftResult - rightResult
                     | Multiplication -> leftResult * rightResult
                     | Division ->
-                        if rightResult < 0.001 then
+                        if abs(rightResult) < 0.0001 then
                             raise (new DivideByZeroException())
                         else
                             leftResult / rightResult
