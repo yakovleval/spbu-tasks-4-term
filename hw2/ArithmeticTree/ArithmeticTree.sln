@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ArithmeticTree", "ArithmeticTree\ArithmeticTree.fsproj", "{28815A8C-4360-4F93-B3F7-824742F26375}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ArithmeticTree.Tests", "ArithmeticTree.Tests\ArithmeticTree.Tests.fsproj", "{D79DECBE-7207-46B7-91A5-533D7DCC6BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28815A8C-4360-4F93-B3F7-824742F26375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28815A8C-4360-4F93-B3F7-824742F26375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28815A8C-4360-4F93-B3F7-824742F26375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28815A8C-4360-4F93-B3F7-824742F26375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79DECBE-7207-46B7-91A5-533D7DCC6BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79DECBE-7207-46B7-91A5-533D7DCC6BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79DECBE-7207-46B7-91A5-533D7DCC6BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79DECBE-7207-46B7-91A5-533D7DCC6BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6D0D258-3952-4762-8FA6-C68BE348AE74}
+	EndGlobalSection
+EndGlobal
